@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Moonshot ISS TLE Visualizer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>International Space Station (ISS) Orbital Parameters</h1>
+        <p>Data from CelesTrak, visualizing key elements of the latest TLE set (NORAD ID 25544).</p>
+    </header>
+
+    <main>
+        <div class="chart-container">
+            <canvas id="issChart"></canvas>
+        </div>
+        <div id="status-card">
+            <p><strong>ISS TLE Epoch:</strong> <span id="epoch-date">Loading...</span></p>
+            <p id="loading-status">Fetching data...</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

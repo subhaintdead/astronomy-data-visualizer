@@ -1,7 +1,6 @@
 **🛰️ ISS Orbital Parameter Visualizer**
 -----------------------------------
 ​✨ Project Elevator Pitch
-
 ​A resilient, web-based tool built for Hack Club Moonshot that fetches and visualizes the core orbital mechanics of the International Space Station (ISS). By parsing raw TLE (Two-Line Element) data from CelesTrak, this dashboard provides a snapshot of the ISS's Inclination, Eccentricity, and Mean Motion—the critical factors defining its path around Earth.
 
 
